@@ -39,6 +39,16 @@ Link to the notebook: https://github.com/amiteshks/comparing_classifiers/blob/ma
 
 All four classifiers—**K-Nearest Neighbors (KNN)**, **Logistic Regression**, **Decision Trees**, and **Support Vector Machine (SVM)**—achieved perfect training accuracy, indicating that each model fit the training data exceptionally well. However, differences in test accuracy and training time reveal key trade-offs:
 
+## Model Comparison Results
+
+| Model Name              | Train Time (s) | Train Accuracy | Test Accuracy |
+|------------------------|----------------|----------------|---------------|
+| KNN                    | 12.19          | 1.00           | 0.9001        |
+| Logistic Regression    | 2.23           | 1.00           | 0.9094        |
+| Decision Trees         | 2.72           | 1.00           | 0.9129        |
+| Support Vector Machine | 1016.92        | 1.00           | 0.8990        |
+
+
 - **Decision Trees** delivered the **highest test accuracy (91.29%)** with a **relatively low training time (2.72 seconds)**, making it the most balanced and efficient model in this comparison.
 - **Logistic Regression** followed closely with **90.94% test accuracy** and the **fastest training time (2.23 seconds)**, offering excellent performance with minimal computational cost.
 - **KNN**, while also quick to train, had a slightly lower test accuracy (**90.01%**), suggesting it may be more sensitive to data complexity.
